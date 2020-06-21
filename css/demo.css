@@ -265,6 +265,14 @@ a.demo--current {
 	.demo--current span {
 		display: block;
 	}
+
+	.profileimage {
+	display: block;
+	margin-left: inherit;
+	margin-right: inherit;
+	padding-bottom: 0.25em;
+
+	}
 }
 
 @media screen and (max-width: 50em) {
@@ -293,6 +301,13 @@ a.demo--current {
 		font-weight: bold;
 		padding-bottom: 0.25em;
 		text-align: center;
+	}
+	.profileimage {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 0.25em;
+
 	}
 
 	.github {
